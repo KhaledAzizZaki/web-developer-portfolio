@@ -101,6 +101,7 @@ nav ul {
   font-size: 35px;
   font-weight: bold;
   color: rgba(24, 24, 24, 1);
+  margin: 0;
 }
 
 .main-para {
@@ -139,5 +140,21 @@ nav ul {
 
 .about-info {
   display: flex;
-  gap: 40px;
+  gap: 50px;
+}
+.info {
+  text-align: center;
+}
+
+.info p {
+  font-size: 20px;
+  color: rgba(117, 117, 117, 1);
+  margin: 0;
+  padding-top: 20px;
+}
+
+.info h4 {
+  font-size: 20px;
+  color: rgba(24, 24, 24, 1);
+  margin: 0;
 }
