@@ -112,7 +112,9 @@ nav ul {
 
 .main {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
 }
 
 /* about style  */
@@ -157,4 +159,36 @@ nav ul {
   font-size: 20px;
   color: rgba(24, 24, 24, 1);
   margin: 0;
+}
+
+.what {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin: 130px;
+}
+
+.card {
+  display: flex;
+  justify-items: center;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.card > div {
+  /* text-align: left; */
+  max-width: 200px;
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+.card > div h5 {
+  width: bold;
+  font-size: 20px;
+}
+
+.card > div h5 {
+  font-size: 16px;
 }
