@@ -192,3 +192,52 @@ nav ul {
 .card > div h5 {
   font-size: 16px;
 }
+
+.resume-title {
+  text-align: center;
+  margin: 0;
+  padding: 113px;
+}
+
+.resume-dis {
+  display: flex;
+  flex-direction: row;
+  gap: 71px;
+}
+
+.education {
+  max-width: 511px;
+}
+
+.experience {
+  max-width: 511px;
+}
+
+.resume-edu {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(71, 71, 71, 1);
+  /* margin: 0; */
+}
+
+.resume-master {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+  color: rgba(71, 71, 71, 1);
+}
+
+.resume-date {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.resume-para {
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+}
+
+hr {
+  width: 558px;
+}
