@@ -297,9 +297,7 @@ textarea {
   margin-top: 12px;
   border: none;
 }
-.hide {
-  display: none;
-}
+
 @media screen and (max-width: 576px) {
   .what {
     margin: auto;
@@ -310,8 +308,26 @@ textarea {
   .resume,
   .resume-dis,
   .footer,
-  .about-info {
+  .banner,
+  .about-info,
+  nav,
+  nav ul {
     flex-direction: column;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav ul {
+    gap: 20px;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .btn-primery {
+    margin: 20px;
+  }
+  .banner-profile-pic {
+    width: 100%;
   }
   .card > div,
   hr,
@@ -341,5 +357,11 @@ textarea {
   .about,
   .about-first {
     height: auto;
+  }
+  .header {
+    background-image: none;
+  }
+  .footer-column2 form {
+    align-items: center;
   }
 }
